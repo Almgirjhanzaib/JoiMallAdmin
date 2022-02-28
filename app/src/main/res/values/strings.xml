@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MantriMall Admin</string>
+    <string name="lotteryResult">𝕃𝕠𝕥𝕥𝕖𝕣𝕪 ℝ𝕖𝕤𝕦𝕝𝕥𝕤</string>
+    <string name="lottery">𝕃𝕠𝕥𝕥𝕖𝕣𝕪</string>
+    <string name="activeLottery">𝔸𝕔𝕥𝕚𝕧𝕖 𝕃𝕠𝕥𝕥𝕖𝕣𝕪</string>
+    <string name="title_activity_home_drawer">HomeDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Lottery">Lottery</string>
+    <string name="menu_LotteryResult">Lottery Result</string>
+    <string name="menu_User">Users</string>
+
+    <string name="paymentIntro">Please contact the mantrimall@test.com if you have any questiona about the order or payment failur.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

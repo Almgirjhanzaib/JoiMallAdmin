@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtWinNumberUpdate"
+            android:hint="Enter Win Number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            app:met_textColor="@color/btnColor"
+            app:met_baseColor="@color/btnColor"
+            app:met_textColorHint="@color/btnColor"
+            android:inputType="numberDecimal"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/btnColor"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_join_green"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_round"
+                android:backgroundTint="@color/green"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/white"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_join_violet"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_round"
+                android:backgroundTint="@color/voilet"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/white"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_join_red"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_round"
+                android:backgroundTint="@color/red"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/white"
+                />
+
+
+            <ImageView
+                android:id="@+id/img_one_select"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_percent=".35"
+                />
+
+            <ImageView
+                android:id="@+id/img_two_select"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_percent=".35"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

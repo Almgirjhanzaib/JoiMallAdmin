@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="#f5f5f5"
+    android:padding="@dimen/margin_left_8"
+    android:weightSum="6"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_weight="5.5"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewNameUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Faisal Naqvi"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.25" />
+
+        <TextView
+            android:id="@+id/textViewPhoneNoUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="03024429541"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewBalance"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".30" />
+
+        <TextView
+            android:id="@+id/textViewPasswordUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1214526"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewPhoneNoUser"
+            app:layout_constraintStart_toEndOf="@+id/textViewNameUser"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".30" />
+
+        <TextView
+            android:id="@+id/textViewBalance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="50"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".15"></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_double_arrow_24"
+        android:backgroundTint="#f5f5f5"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
